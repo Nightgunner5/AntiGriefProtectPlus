@@ -25,7 +25,7 @@ public class Main extends JavaPlugin {
 
 		config.addDefault( "logging", true );
 		if ( config.getBoolean( "logging" ) ) {
-			getServer().getPluginManager().registerEvents( new Logging(), this );
+			getServer().getPluginManager().registerEvents( new Logging( this ), this );
 			getLogger().info( "Logging module enabled" );
 		}
 
