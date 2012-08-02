@@ -1,0 +1,9 @@
+main: net.llamaslayers.bukkit.antigriefprotectplus.Main
+name: AntiGriefProtectPlus
+author: Nightgunner5
+version: ${project.version}
+
+description: The only Bukkit plugin to provide comprehensive protection against anti-griefing.
+
+# Made with love and olive salts. <3
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
